@@ -1,4 +1,4 @@
-.btn::before{
+.btn::before {
   content: "";
   position: absolute;
   top: -5px;
@@ -7,18 +7,16 @@
   height: 100%;
   display: inline-block;
   border: 1px solid #000;
-  transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
   border-radius: 2px;
 }
 
-.btn{
-  transition: all .1s cubic-bezier(0.075, 0.82, 0.165, 1);
-
+.btn {
+  transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.btn:hover::before{
+.btn:hover::before {
   top: 0;
   left: 0;
-  border-color: #06FBCE;
+  border-color: #06fbce;
 }
-
