@@ -47,3 +47,23 @@ export const slideDown = {
    
 }
 
+export const list = {
+    visible: {
+      opacity: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.2,
+      },
+    },
+    hidden: {
+      opacity: 0,
+      transition: {
+        when: "afterChildren",
+      },
+    },
+}
+
+export const item = {
+    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, x: -100 },
+}

@@ -11,7 +11,7 @@ const Loader = ({ loading }) => {
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
-      <div
+      {/* <div
         className={`${styles.loader} absolute  left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
       >
         <p>l</p>
@@ -21,7 +21,7 @@ const Loader = ({ loading }) => {
         <p>i</p>
         <p>n</p>
         <p>g</p>
-      </div>
+      </div> */}
     </ul>
   );
 };
