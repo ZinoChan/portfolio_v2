@@ -8,18 +8,18 @@ module.exports = {
     darkMode: false,
     theme: {
         extend: {
-            fontFamily: {
-                
+            fontFamily: { 
                 main: ['Poppins', ...defaultTheme.fontFamily.sans],
+                lora: ['Lora', ...defaultTheme.fontFamily.serif]
             },
 
             colors: {
                 primary: "#06FBCE",
-                // secondary: "#EA525C",
-                // dark: "#191C1D",
-                // "dark-gray": "#272A2A"
-              
             },
+            gridTemplateColumns: {
+                'auto-1': ' repeat(1, minmax(0, auto))',
+               'auto-2': ' repeat(2, minmax(0, auto))',
+              }
         },
     },
     variants: {

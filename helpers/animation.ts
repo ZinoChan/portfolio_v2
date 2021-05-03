@@ -9,6 +9,15 @@ export const slideUp = {
     }})
 }
 
+export const fadeIn = {
+    hidden: { opacity: 0},
+    visible: (i=0) => ({ opacity: 1, transition: {
+        ease: 'easeInOut',
+        duration: .5,
+        delay: i
+    }})
+}
+
 
 export const slideToRight = {
     hidden: {x: -100, opacity: 0},
