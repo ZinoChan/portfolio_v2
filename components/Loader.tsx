@@ -5,14 +5,14 @@ const Loader = ({ loading }) => {
     <ul
       className={`${
         loading ? `${styles.loading}` : styles.leave
-      } absolute overflow-hidden top-0 left-0 w-full flex z-30 h-full  pointer-events-none`}
+      } fixed overflow-hidden top-0 left-0 w-full flex z-30 h-full  pointer-events-none`}
     >
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
-      {/* <div
-        className={`${styles.loader} absolute  left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
+      <div
+        className={`${styles.loader} absolute top-1/2  left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
       >
         <p>l</p>
         <p>o</p>
@@ -21,7 +21,7 @@ const Loader = ({ loading }) => {
         <p>i</p>
         <p>n</p>
         <p>g</p>
-      </div> */}
+      </div>
     </ul>
   );
 };

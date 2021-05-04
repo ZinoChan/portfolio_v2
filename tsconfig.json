@@ -23,6 +23,7 @@
       "@styles/*":["./styles/*"],
       "@public/*": ["./public/*"],
       "@helpers/*": ["./helpers/*"],
+      "@data/*": ["./data/*"]
       
   
     }

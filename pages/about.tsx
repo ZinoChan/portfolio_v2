@@ -55,7 +55,7 @@ const About = () => {
             className="text-main font-semibold text-lg text-gray-800 mb-6"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sollicitudin integer id non gravida senectus. <br /> <br />{" "}
+            Sollicitudin integer id non gravida senectus. <br /> <br />
             Venenatis tempor lacus, egestas ipsum ut. Dolor a ornare vivamus
             nunc quisque vestibulum. <br /> <br /> Magna nulla eros consequat
             tincidunt tincidunt vitae bibendum. vestibulum. <br /> <br /> Magna

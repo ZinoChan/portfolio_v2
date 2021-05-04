@@ -1,0 +1,4 @@
+.stroke {
+  -webkit-text-stroke: 3px black;
+  -webkit-text-fill-color: transparent;
+}

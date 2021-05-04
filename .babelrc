@@ -9,7 +9,8 @@
             "@components": "./components",
             "@public": "./public",
             "@styles": "./styles",
-            "@helpers": "./helpers"
+            "@helpers": "./helpers",
+            "@data": "./data"
           }
         }
       ]

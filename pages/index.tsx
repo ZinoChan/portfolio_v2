@@ -7,6 +7,7 @@ import {
   slideDown,
   fadeIn,
 } from "@helpers/animation";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -49,16 +50,18 @@ const Home = () => {
           >
             Web <br /> developer <br /> ui designer
           </motion.h1>
-
-          <motion.button
-            initial="hidden"
-            animate="visible"
-            variants={slideUp}
-            custom={0.6}
-            className={`${styles.btn} col-start-2 mt-8 place-self-start relative self-start align-start px-6 py-2 font-semibold text-md font-main capitalize rounded bg-primary`}
-          >
-            view work
-          </motion.button>
+          <Link href="/work">
+            <motion.button
+              initial="hidden"
+              animate="visible"
+              variants={slideUp}
+              whileTap={{ scale: 0.9 }}
+              custom={0.6}
+              className={`${styles.btn} focus:outline-none col-start-2 mt-8 place-self-start relative self-start align-start px-6 py-2 font-semibold text-md font-main capitalize rounded bg-primary`}
+            >
+              <a>view work</a>
+            </motion.button>
+          </Link>
         </div>
       </div>
       <motion.div

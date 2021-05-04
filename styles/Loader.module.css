@@ -31,11 +31,11 @@
 }
 
 .leave .loader {
-  top: 120vh;
+  display: none;
 }
 
 .loading .loader {
-  top: 50%;
+  display: block;
   transition-delay: 0.05s;
 }
 
