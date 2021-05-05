@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import { useState } from "react";
 import Router from "next/router";
 import Loader from "@components/Loader";
+import { Toaster } from "react-hot-toast";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
@@ -21,6 +22,7 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Loader loading={loading} />
+      <Toaster />
     </>
   );
 }

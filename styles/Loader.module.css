@@ -27,7 +27,7 @@
 }
 
 .loader {
-  transition: all 0.04s ease-in-out;
+  transition: display 0.04s ease-in-out;
 }
 
 .leave .loader {

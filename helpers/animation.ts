@@ -53,6 +53,7 @@ export const list = {
       transition: {
         when: "beforeChildren",
         staggerChildren: 0.2,
+        delay: 0.6
       },
     },
     hidden: {
@@ -65,7 +66,10 @@ export const list = {
 
 export const item = {
     visible: { opacity: 1, x: 0 },
-    hidden: { opacity: 0, x: -100 },
+    hidden: { opacity: 0, x: -100,  transition: {
+        ease: 'easeInOut',
+        duration: .5,
+    }  },
 }
 
 export const itemSlideUp = {

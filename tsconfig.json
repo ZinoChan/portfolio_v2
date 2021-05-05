@@ -33,7 +33,7 @@
     "next.config.js",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/api/contact.js"  ],
   "exclude": [
     "node_modules"
   ]
