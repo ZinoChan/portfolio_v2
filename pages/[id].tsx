@@ -70,15 +70,11 @@ const ProjectDetails = () => {
           className="max-w-screen-md px-2 mx-auto"
         >
           <Slide>
-            <div>
-              <img src="orcanime.jpg" />
-            </div>
-            <div>
-              <img src="/run.jpg" />
-            </div>
-            <div>
-              <img src="/perfume.jpg" />
-            </div>
+            {project.imgs.map((img) => (
+              <div>
+                <img src={img} alt="project_img" />
+              </div>
+            ))}
           </Slide>
         </motion.div>
       </div>
