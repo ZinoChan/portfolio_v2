@@ -12,7 +12,7 @@ const Loader = ({ loading }) => {
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <div
-        className={`${styles.loader} absolute top-1/2  left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
+        className={`${styles.loader} md:text-4xl text-3xl absolute top-1/2  left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
       >
         <p>l</p>
         <p>o</p>

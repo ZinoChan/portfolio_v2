@@ -48,7 +48,7 @@ const Home = () => {
             custom={0.3}
             className="md:text-7xl text-4xl md:leading-normal  font-black font-main text-black uppercase"
           >
-            Web <br /> developer <br /> ui designer
+            Web <br /> developer <br /> & designer
           </motion.h1>
           <Link href="/work">
             <motion.button
@@ -69,7 +69,7 @@ const Home = () => {
         animate="visible"
         variants={slideUp}
         custom={0.6}
-        className="absolute -bottom-10 md:left-10 left-4 w-20 bg-cover h-20"
+        className="absolute -bottom-10 md:left-12 left-4 w-20 bg-cover h-20"
         style={{ backgroundImage: "url('/shape.svg')" }}
       ></motion.div>
     </section>

@@ -1,9 +1,11 @@
-import Card from "@components/Card";
 import { list, itemSlideUp } from "@helpers/animation";
 import { motion } from "framer-motion";
 import { projects } from "@data/projects";
-import Link from "next/link";
 import Heading from "@components/Heading";
+import Link from "next/link";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Work = () => {
   return (
@@ -19,16 +21,24 @@ const Work = () => {
         >
           {projects.map(({ id, name, img, linkToPage, linkToSrc }) => (
             <motion.div variants={itemSlideUp} key={id}>
-              <Link href={id}>
+              <Link href={`/${id}`}>
                 <a>
-                  <Card
-                    title={name}
-                    src={img}
-                    link={linkToPage}
-                    git={linkToSrc}
-                  />
+                  <img src={img} className="rounded" alt="work" />
                 </a>
               </Link>
+              <div className="mt-4 flex justify-between items-center">
+                <h4 className="font-main text-md font-bold capitalize">
+                  {name}
+                </h4>
+                <div>
+                  <a href={linkToPage} className="mr-4">
+                    <FontAwesomeIcon icon={faExternalLinkAlt} />
+                  </a>
+                  <a href={linkToSrc} className="mr-4">
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </div>
+              </div>
             </motion.div>
           ))}
         </motion.div>
