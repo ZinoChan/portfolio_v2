@@ -55,14 +55,20 @@ const About = () => {
               animate="visible"
               variants={slideToLeft}
               custom={0.3}
-              className="text-main font-semibold text-lg text-gray-800 mb-6"
+              className="text-main font-semibold text-lg leading-relaxed text-gray-800 mb-6"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sollicitudin integer id non gravida senectus. <br /> <br />
-              Venenatis tempor lacus, egestas ipsum ut. Dolor a ornare vivamus
-              nunc quisque vestibulum. <br /> <br /> Magna nulla eros consequat
-              tincidunt tincidunt vitae bibendum. vestibulum. <br /> <br />{" "}
-              Magna nulla eros consequat tincidunt tincidunt vitae bibendum.
+              Hi I'm Zineb ELGUIL, I'm a self taught front-end web developer and
+              designer with over 2 years of experience on building web
+              application. i like learning new technologies, continue
+              challenging myself, and do interesting things that matter.
+              <br />
+              <br />
+              My main experience is in front-end development but I also have a
+              passion for design. Given that producing a modern website requires
+              the combination of design, server technology, and the layer that
+              users interacts with, I believe having experience in both design
+              and development allows for making the most optimal user
+              experiences.
             </motion.p>
             <motion.h3
               initial="hidden"
