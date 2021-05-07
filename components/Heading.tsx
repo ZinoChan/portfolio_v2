@@ -1,7 +1,7 @@
 import { slideToLeft } from "@helpers/animation";
 import { motion } from "framer-motion";
 import React from "react";
-import styles from "@styles/Heading.module.css";
+import styles from "@styles/Utils.module.css";
 
 const Heading = ({ heading, stroke = false }) => {
   return (

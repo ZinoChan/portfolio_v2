@@ -1,29 +1,13 @@
-.loading li {
+.loading > .container {
   transform: translateY(0);
 }
 
-.leave li {
+.leave > .container {
   transform: translateY(-100%);
 }
 
-.list_item {
-  height: 100%;
+.container {
   transition: all 0.1s ease-in-out;
-}
-
-.loading li:nth-child(2),
-.leave li:nth-child(2) {
-  transition-delay: 0.01s;
-}
-
-.loading li:nth-child(3),
-.leave li:nth-child(3) {
-  transition-delay: 0.02s;
-}
-
-.loading li:nth-child(4),
-.leave li:nth-child(4) {
-  transition-delay: 0.03s;
 }
 
 .loader {

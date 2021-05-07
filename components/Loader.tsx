@@ -7,10 +7,11 @@ const Loader = ({ loading }) => {
         loading ? `${styles.loading}` : styles.leave
       } fixed overflow-hidden top-0 left-0 w-full flex z-30 h-full  pointer-events-none`}
     >
+      {/* <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
       <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
-      <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
-      <li className={`bg-primary w-1/4 ${styles.list_item}`}></li>
+      <li className={`bg-primary w-1/4 ${styles.list_item}`}></li> */}
+      <div className={`${styles.container} bg-primary w-full`}></div>
       <div
         className={`${styles.loader} md:text-4xl text-3xl absolute top-1/2  left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
       >

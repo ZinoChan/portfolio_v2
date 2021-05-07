@@ -21,7 +21,7 @@ const Work = () => {
         >
           {projects.map(({ id, name, img, linkToPage, linkToSrc }) => (
             <motion.div variants={itemSlideUp} key={id}>
-              <Link href={`/${id}`}>
+              <Link href={`/details/${id}`}>
                 <a>
                   <img src={img} className="rounded" alt="work" />
                 </a>
