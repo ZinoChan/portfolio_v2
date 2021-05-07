@@ -159,7 +159,7 @@ const Contact = () => {
                   variants={item}
                   className="flex mb-4 items-center space-x-4 text-gray-700"
                 >
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <FontAwesomeIcon className="w-4" icon={faEnvelope} />
                   <span className="text-lg font-main">
                     devzinochan@gmail.com
                   </span>
@@ -168,14 +168,14 @@ const Contact = () => {
                   variants={item}
                   className="flex mb-4 items-center space-x-4 text-gray-700"
                 >
-                  <FontAwesomeIcon icon={faPhone} />
+                  <FontAwesomeIcon className="w-4" icon={faPhone} />
                   <span className="text-lg font-main">+212 629872534</span>
                 </motion.div>
                 <motion.div
                   variants={item}
                   className="flex mb-4 items-center space-x-4 text-gray-700"
                 >
-                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                  <FontAwesomeIcon className="w-4" icon={faMapMarkerAlt} />
                   <span className="text-lg font-main">Benslimane, Morocco</span>
                 </motion.div>
               </motion.div>
@@ -190,25 +190,25 @@ const Contact = () => {
                   initial="hidden"
                   animate="visible"
                   variants={list}
-                  className="flex space-x-10 text-lg text-gray-700"
+                  className="flex space-x-10 text-lg items-center text-gray-700"
                 >
                   <motion.span
                     variants={itemSlideUp}
                     className="hover:text-primary"
                   >
-                    <FontAwesomeIcon icon={faFacebookF} />
+                    <FontAwesomeIcon className="w-4 h-4" icon={faFacebookF} />
                   </motion.span>
                   <motion.span
                     variants={itemSlideUp}
                     className="hover:text-primary"
                   >
-                    <FontAwesomeIcon icon={faInstagram} />
+                    <FontAwesomeIcon className="w-4" icon={faInstagram} />
                   </motion.span>
                   <motion.span
                     variants={itemSlideUp}
                     className="hover:text-primary"
                   >
-                    <FontAwesomeIcon icon={faGithub} />
+                    <FontAwesomeIcon className="w-4 h-4" icon={faGithub} />
                   </motion.span>
                 </motion.div>
               </motion.div>
