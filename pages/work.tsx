@@ -29,7 +29,9 @@ const Work = () => {
                   <a>
                     <Image
                       src={img}
-                      layout="fill"
+                      width={345}
+                      height={216}
+                      layout="responsive"
                       className="rounded"
                       alt="work"
                     />
@@ -39,12 +41,15 @@ const Work = () => {
                   <h4 className="font-main text-md font-bold capitalize">
                     {name}
                   </h4>
-                  <div>
-                    <a href={linkToPage} className="mr-4">
-                      <FontAwesomeIcon icon={faExternalLinkAlt} />
+                  <div className="flex space-x-4">
+                    <a href={linkToPage}>
+                      <FontAwesomeIcon
+                        className="w-4"
+                        icon={faExternalLinkAlt}
+                      />
                     </a>
-                    <a href={linkToSrc} className="mr-4">
-                      <FontAwesomeIcon icon={faGithub} />
+                    <a href={linkToSrc}>
+                      <FontAwesomeIcon className="w-4" icon={faGithub} />
                     </a>
                   </div>
                 </div>
