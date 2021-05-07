@@ -60,15 +60,17 @@ const ProjectDetails = () => {
                 >
                   <a
                     href={project?.linkToPage}
-                    className="mr-4 hover:text-primary"
+                    className="mr-4 hover:text-primary flex items-center space-x-2"
                   >
-                    Visit App <FontAwesomeIcon icon={faExternalLinkAlt} />
+                    <span>Visit App</span>
+                    <FontAwesomeIcon className="w-4" icon={faExternalLinkAlt} />
                   </a>
                   <a
                     href={project?.linkToSrc}
-                    className="mr-4 hover:text-primary"
+                    className="mr-4 hover:text-primary flex  items-center  space-x-2"
                   >
-                    View Source <FontAwesomeIcon icon={faGithub} />
+                    <span>View Source</span>
+                    <FontAwesomeIcon className="w-4" icon={faGithub} />
                   </a>
                 </motion.div>
               </motion.div>
