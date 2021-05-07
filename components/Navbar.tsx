@@ -48,7 +48,7 @@ const Navbar = () => {
         <ul
           className={`
         ${isOpen ? "translate-x-0" : "translate-x-full"}
-        md:hidden  flex w-16 h-screen top-0 right-0 transform z-30 transition-transform duration-300 ease-in-out  bg-gray-50 fixed justify-center space-y-16 flex-col items-center text-center `}
+        md:hidden  flex w-16 h-screen top-0 right-0 transform z-30 transition-transform duration-300 ease-in-out  bg-gray-50 fixed justify-center space-y-8 flex-col items-center text-center `}
         >
           {routes.map((route, index) => (
             <li key={`${route.name}-${index}`} onClick={() => setOpen(false)}>
