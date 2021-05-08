@@ -26,24 +26,6 @@ const Home = () => {
         </motion.h1>
         <div className="relative max-w-screen-lg px-2 w-full mx-auto">
           <div className="md:grid md:grid-cols-auto-2 md:grid-rows-auto-2 xl:gap-0 gap-4">
-            <div className="md:space-x-16 justify-center items-end md:flex">
-              <motion.p
-                initial="hidden"
-                animate="visible"
-                variants={slideToRight}
-                custom={0.3}
-                className="md:text-2xl text-lg text-gray-700 md:mb-8 font-lora  capitalize"
-              >
-                react js <br />
-                developer based <br /> in Morocco.
-              </motion.p>
-              <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={slideDown}
-                className="md:w-0.5 md:mb-8 md:h-52 h-0.5 w-52 my-6 bg-gray-300"
-              ></motion.div>
-            </div>
             <motion.h1
               initial="hidden"
               animate="visible"
@@ -53,6 +35,24 @@ const Home = () => {
             >
               Web <br /> developer <br /> & designer
             </motion.h1>
+            <div className="md:space-x-16 justify-center items-center md:flex">
+              <motion.div
+                initial="hidden"
+                animate="visible"
+                variants={slideDown}
+                className="md:w-0.5  md:h-52 h-0.5 w-52 my-6 bg-gray-300"
+              ></motion.div>
+              <motion.p
+                initial="hidden"
+                animate="visible"
+                variants={slideToRight}
+                custom={0.3}
+                className="md:text-2xl text-lg text-gray-700  font-lora  capitalize"
+              >
+                Front-end <br />
+                react js developer <br /> based in Morocco.
+              </motion.p>
+            </div>
             <Link href="/work">
               <motion.button
                 initial="hidden"
@@ -60,7 +60,7 @@ const Home = () => {
                 variants={slideUp}
                 whileTap={{ scale: 0.9 }}
                 custom={0.6}
-                className={`${styles.btn} focus:outline-none col-start-2 mt-8 place-self-start relative self-start align-start px-6 py-2 font-semibold text-md font-main capitalize rounded bg-primary`}
+                className={`${styles.btn} focus:outline-none  mt-8 place-self-start relative self-start align-start px-6 py-2 font-semibold text-md font-main capitalize rounded bg-primary`}
               >
                 <a>view work</a>
               </motion.button>
