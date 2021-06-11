@@ -54,10 +54,10 @@ const Navbar = () => {
             <li key={`${route.name}-${index}`} onClick={() => setOpen(false)}>
               <Link href={route.link}>
                 <a className="hover:text-primary text-gray-400 text-sm font-main capitalize">
-                  <span className="block mb-2 text-3xl">
+                  <span className="block mb-2 w-8 h-8 mx-auto text-xl">
                     <FontAwesomeIcon icon={route.icon} />
                   </span>
-                  <span>{route.name}</span>
+                  <span className="text-sm">{route.name}</span>
                 </a>
               </Link>
             </li>

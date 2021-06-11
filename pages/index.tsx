@@ -20,7 +20,7 @@ const Home = () => {
           animate="visible"
           variants={fadeIn}
           custom={0.6}
-          className="absolute bottom-20 left-4 xl:top-1/2 xl:transform  xl:-rotate-90 min-w-max xl:-left-16 xl:-translate-y-1/2 font-main uppercase font-black text-gray-100 md:text-7xl text-5xl"
+          className="absolute bottom-10 px-2 xl:hidden font-main uppercase font-black text-gray-100 md:text-7xl text-5xl"
         >
           front-end
         </motion.h1>

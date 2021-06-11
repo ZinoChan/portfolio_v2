@@ -60,6 +60,8 @@ const ProjectDetails = () => {
                 >
                   <a
                     href={project?.linkToPage}
+                    rel="noopener noreferrer"
+                    target="_blank"
                     className="mr-4 hover:text-primary flex items-center space-x-2"
                   >
                     <span>Visit App</span>
@@ -67,6 +69,8 @@ const ProjectDetails = () => {
                   </a>
                   <a
                     href={project?.linkToSrc}
+                    rel="noopener noreferrer"
+                    target="_blank"
                     className="mr-4 hover:text-primary flex  items-center  space-x-2"
                   >
                     <span>View Source</span>
@@ -82,8 +86,8 @@ const ProjectDetails = () => {
               className="max-w-screen-md px-2 mx-auto"
             >
               <Slide>
-                {project?.imgs?.map((img) => (
-                  <div>
+                {project?.imgs?.map((img, index) => (
+                  <div key={`img-${index}`}>
                     <img src={img} alt="project_img" />
                   </div>
                 ))}

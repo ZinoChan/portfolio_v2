@@ -13,7 +13,7 @@ const Work = () => {
   return (
     <>
       <MetaTags title="Work" />
-      <section className="relative min-h-screen flex items-center py-28">
+      <section className="relative overflow-hidden min-h-screen flex items-center py-28">
         <div className="max-w-screen-lg mx-auto w-full px-2">
           <Heading heading="work" />
 
@@ -42,13 +42,21 @@ const Work = () => {
                     {name}
                   </h4>
                   <div className="flex space-x-4">
-                    <a href={linkToPage}>
+                    <a
+                      href={linkToPage}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <FontAwesomeIcon
                         className="w-4"
                         icon={faExternalLinkAlt}
                       />
                     </a>
-                    <a href={linkToSrc}>
+                    <a
+                      href={linkToSrc}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <FontAwesomeIcon className="w-4" icon={faGithub} />
                     </a>
                   </div>
