@@ -1,4 +1,15 @@
 export const projects = [
+  {
+    id: "6a29d826-fbba-4093-8eef-ac3642c79bbf",
+    category: "Nextjs",
+    name: "Oishi",
+    img: "/oishi.jpg",
+    linkToPage: "https://oishi.vercel.app/",
+    linkToSrc: "https://github.com/ZinoChan/Oishi",
+    description: "fast food order and delivery app",
+    tools: ["Next js", "Redux Toolkit", "Redux-persist", "Redux Saga", "Firebase", "Tailwindcss"],
+    imgs: ["/work/oishi1.jpg", "/work/oishi2.jpg", "/work/oishi3.jpg"]
+  },
     {
       id: "9f4d390d-1291-4523-8875-3422c0d37ba3",
       category: "React",
@@ -18,20 +29,10 @@ export const projects = [
       linkToPage: "https://orcanime.vercel.app/",
       linkToSrc: "https://github.com/ZinoChan/orcanime",
       description: "gamer accessoiries ecommerce",
-      tools: ["nextjs", "framer-motion", "tailwindcss", "firebase", "redux"],
+      tools: ["Next js", "framer-motion", "tailwindcss", "firebase", "redux"],
       imgs: ["/orcanime.jpg","/work/orca1.jpg", "/work/orca2.jpg"]
     },
-    {
-      id: "6a29d826-fbba-4093-8eef-ac3642c79bbf",
-      category: "React",
-      name: "Jagaimo",
-      img: "/jagaimo.jpg",
-      linkToPage: "https://pizza-16763.firebaseapp.com/",
-      linkToSrc: "https://github.com/ZinoChan/jagaimo",
-      description: "fast food order and delivery app",
-      tools: ["React", "Redux", "Redux Saga", "Firebase", "Scss"],
-      imgs: ["/jagaimo.jpg", "/work/jagaimo1.jpg", "/work/jagaimo2.jpg"]
-    },
+    
     {
       id: "e6b700d5-1110-4de3-8d4f-102aa947437d",
       category: "Gatsbyjs",

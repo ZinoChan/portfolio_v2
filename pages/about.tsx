@@ -25,7 +25,7 @@ const About = () => {
   return (
     <>
       <MetaTags title="About Me" />
-      <section className="min-h-screen flex items-center pt-28">
+      <section className="min-h-screen flex items-center pt-28 overflow-hidden">
         <div className="max-w-screen-lg mx-auto xl:flex xl:justify-between xl:space-x-10 px-2">
           <motion.h1
             initial="hidden"

@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <>
       <MetaTags title="Contact Me" />
-      <section className="min-h-screen flex items-center py-20">
+      <section className="min-h-screen flex items-center py-20 overflow-hidden">
         <div className="max-w-screen-lg w-full mx-auto px-2">
           <Heading heading="Contact me" />
           <div className="lg:grid-cols-2 grid grid-cols-1 gap-12 lg:max-w-none max-w-screen-sm mx-auto ">
