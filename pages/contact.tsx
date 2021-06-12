@@ -192,24 +192,33 @@ const Contact = () => {
                   variants={list}
                   className="flex space-x-10 text-lg items-center text-gray-700"
                 >
-                  <motion.span
+                  <motion.a
                     variants={itemSlideUp}
                     className="hover:text-primary"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.facebook.com/shuu.chan.771"
                   >
                     <FontAwesomeIcon className="w-4 h-4" icon={faFacebookF} />
-                  </motion.span>
-                  <motion.span
+                  </motion.a>
+                  <motion.a
                     variants={itemSlideUp}
                     className="hover:text-primary"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.instagram.com/shuu.chan.25/"
                   >
                     <FontAwesomeIcon className="w-4" icon={faInstagram} />
-                  </motion.span>
-                  <motion.span
+                  </motion.a>
+                  <motion.a
                     variants={itemSlideUp}
                     className="hover:text-primary"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/ZinoChan"
                   >
                     <FontAwesomeIcon className="w-4 h-4" icon={faGithub} />
-                  </motion.span>
+                  </motion.a>
                 </motion.div>
               </motion.div>
             </div>
