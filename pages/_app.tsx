@@ -5,23 +5,20 @@ import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
 import "@fontsource/poppins/900.css";
 import Navbar from "../components/Navbar";
-import { useState } from "react";
 import Router from "next/router";
-import Loader from "@components/Loader";
+
 import { Toaster } from "react-hot-toast";
+import NProgress from "nprogress";
+
+Router.events.on("routeChangeStart", () => NProgress.start());
+Router.events.on("routeChangeComplete", () => NProgress.done());
+Router.events.on("routeChangeError", () => NProgress.done());
 
 function MyApp({ Component, pageProps }) {
-  const [loading, setLoading] = useState(false);
-
-  Router.events.on("routeChangeStart", () => setLoading(true));
-  Router.events.on("routeChangeComplete", () => setLoading(false));
-  Router.events.on("routeChangeError", () => setLoading(false));
-
   return (
     <>
       <Navbar />
       <Component {...pageProps} />
-      <Loader loading={loading} />
       <Toaster />
     </>
   );

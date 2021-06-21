@@ -59,7 +59,7 @@ const About = () => {
             >
               Hi I'm Zineb ELGUIL, I'm a self taught front-end web developer and
               designer with over 2 years of experience on building web
-              application. i like learning new technologies, continue
+              application. I like learning new technologies, continue
               challenging myself, and do interesting things that matter.
               <br />
               <br />
