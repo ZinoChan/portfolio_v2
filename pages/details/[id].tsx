@@ -20,7 +20,7 @@ const ProjectDetails = () => {
     <>
       {!project && <NotFound />}
       {project && (
-        <section className="min-h-screen py-32 flex items-center overflow-hidden">
+        <section className="min-h-screen py-32 flex items-center overflow-hidden dark:bg-dark-theme">
           <div className="max-w-screen-lg mx-auto w-full px-2 ">
             <div className="lg:flex lg:justify-center lg:space-x-12 mb-12">
               <Heading heading={project?.name} stroke />
@@ -28,19 +28,19 @@ const ProjectDetails = () => {
               <motion.div initial="hidden" animate="visible" variants={list}>
                 <motion.h4
                   variants={item}
-                  className="mb-2 text-xl text-gray-900 font-main font-semibold"
+                  className="mb-2 text-xl text-gray-900 dark:text-gray-300 font-main font-semibold"
                 >
                   Description:
                 </motion.h4>
                 <motion.p
                   variants={item}
-                  className="mb-6 text-lg text-gray-700 font-main font-medium"
+                  className="mb-6 text-lg text-gray-700 dark:text-gray-200 font-main font-medium"
                 >
                   {project?.description}
                 </motion.p>
                 <motion.h4
                   variants={item}
-                  className="mb-2 text-xl text-gray-900 font-main font-semibold"
+                  className="mb-2 text-xl text-gray-900 dark:text-gray-300  font-main font-semibold"
                 >
                   Tools:
                 </motion.h4>
@@ -48,7 +48,7 @@ const ProjectDetails = () => {
                   {project?.tools.map((tool, index) => (
                     <span
                       key={`${tool}-${index}`}
-                      className=" mr-2 text-lg text-gray-700 font-main font-medium"
+                      className=" mr-2 text-lg text-gray-700 dark:text-gray-200 font-main font-medium"
                     >
                       {tool},
                     </span>
@@ -56,7 +56,7 @@ const ProjectDetails = () => {
                 </motion.div>
                 <motion.div
                   variants={item}
-                  className="flex justify-between font-main font-bold lg:w-full md:w-96 w-full "
+                  className="flex justify-between font-main dark:text-gray-200 font-bold lg:w-full md:w-96 w-full "
                 >
                   <a
                     href={project?.linkToPage}

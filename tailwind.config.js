@@ -5,7 +5,7 @@ module.exports = {
         './pages/**/*.{js,ts,jsx,tsx}',
         './components/**/*.{js,ts,jsx,tsx}',
     ],
-    darkMode: false,
+    darkMode: 'class',
     theme: {
         extend: {
             fontFamily: { 
@@ -15,6 +15,8 @@ module.exports = {
 
             colors: {
                 primary: "#06FBCE",
+                'dark-theme': "#1B1F22",
+                'dark-gray': "#313538"
             },
             gridTemplateColumns: {
                 'auto-1': ' repeat(1, minmax(0, auto))',
@@ -26,7 +28,9 @@ module.exports = {
         extend: {
             opacity: ['disabled'],
             cursor: ['disabled'],
+          
         },
+
     },
     plugins: [],
 }

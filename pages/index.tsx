@@ -9,18 +9,19 @@ import {
 } from "@helpers/animation";
 import Link from "next/link";
 import MetaTags from "@components/MetaTags";
+import Shape from "@components/Shape";
 
 const Home = () => {
   return (
     <>
       <MetaTags title="ELGUIL Zineb | Front-end developer" />
-      <section className="relative overflow-hidden min-h-screen w-full flex items-center md:pt-0 pt-16">
+      <section className="relative overflow-hidden min-h-screen w-full flex items-center md:pt-0 pt-16 dark:bg-dark-theme">
         <motion.h1
           initial="hidden"
           animate="visible"
           variants={fadeIn}
           custom={0.6}
-          className="absolute bottom-10 px-2 xl:hidden font-main uppercase font-black text-gray-100 md:text-7xl text-5xl"
+          className="absolute  bottom-10 px-2 xl:hidden font-main uppercase font-black dark:text-gray-700   md:text-7xl text-5xl"
         >
           front-end
         </motion.h1>
@@ -31,7 +32,7 @@ const Home = () => {
               animate="visible"
               variants={slideToLeft}
               custom={0.3}
-              className="md:text-7xl text-4xl md:leading-normal  font-black font-main text-black uppercase"
+              className="md:text-7xl text-4xl md:leading-normal dark:text-gray-100  font-black font-main text-black uppercase"
             >
               Web <br /> developer <br /> & designer
             </motion.h1>
@@ -40,14 +41,14 @@ const Home = () => {
                 initial="hidden"
                 animate="visible"
                 variants={slideDown}
-                className="md:w-0.5  md:h-52 h-0.5 w-52 my-6 bg-gray-300"
+                className="md:w-0.5  md:h-52 h-0.5 w-52 my-6 bg-gray-300 dark:bg-gray-300"
               ></motion.div>
               <motion.p
                 initial="hidden"
                 animate="visible"
                 variants={slideToRight}
                 custom={0.3}
-                className="md:text-2xl text-lg text-gray-700  font-lora  capitalize"
+                className="md:text-2xl text-lg dark:text-gray-300 text-gray-700   font-lora  capitalize"
               >
                 Front-end <br />
                 react js developer <br /> based in Morocco.
@@ -72,9 +73,10 @@ const Home = () => {
           animate="visible"
           variants={slideUp}
           custom={0.6}
-          className="absolute -bottom-10 md:left-12 left-4 w-20 bg-cover h-20"
-          style={{ backgroundImage: "url('/shape.svg')" }}
-        ></motion.div>
+          className="absolute -bottom-10 md:left-12 left-4 w-20 bg-cover h-20 dark:filter dark:invert"
+        >
+          <Shape />
+        </motion.div>
       </section>
     </>
   );

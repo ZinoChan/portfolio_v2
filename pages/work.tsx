@@ -13,7 +13,7 @@ const Work = () => {
   return (
     <>
       <MetaTags title="Work" />
-      <section className="relative overflow-hidden min-h-screen flex items-center py-28">
+      <section className="dark:bg-dark-theme relative overflow-hidden min-h-screen flex items-center py-28">
         <div className="max-w-screen-lg mx-auto w-full px-2">
           <Heading heading="work" />
 
@@ -38,10 +38,10 @@ const Work = () => {
                   </a>
                 </Link>
                 <div className="mt-4 flex justify-between items-center">
-                  <h4 className="font-main text-md font-bold capitalize">
+                  <h4 className="font-main text-md font-bold capitalize dark:text-gray-100">
                     {name}
                   </h4>
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 dark:text-gray-100">
                     <a
                       href={linkToPage}
                       rel="noopener noreferrer"

@@ -6,13 +6,14 @@
   width: 100%;
   height: 100%;
   display: inline-block;
-  border: 1px solid #000;
+  border: 1px solid rgb(128, 127, 127);
   transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
   border-radius: 4px;
 }
 
 .btn {
   transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 5px 5px 31px -10px #06fbce;
 }
 
 .btn:hover::before {

@@ -10,7 +10,7 @@ const Heading = ({ heading, stroke = false }) => {
         initial={{ width: 0 }}
         animate={{ width: "8rem" }}
         transition={{ duration: 0.5 }}
-        className="relative inline-block w-32  mr-4 h-4 bg-gray-200"
+        className="relative inline-block w-32  mr-4 h-4 bg-gray-200 dark:bg-dark-gray"
       >
         <motion.span
           initial={{ width: 0 }}
@@ -24,7 +24,7 @@ const Heading = ({ heading, stroke = false }) => {
         animate="visible"
         variants={slideToLeft}
         custom={0.5}
-        className={`inline-block ${stroke && styles.stroke}`}
+        className={`inline-block dark:text-gray-100 ${stroke && styles.stroke}`}
       >
         {heading}
       </motion.span>

@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <>
       <MetaTags title="Contact Me" />
-      <section className="min-h-screen flex items-center py-20 overflow-hidden">
+      <section className="min-h-screen flex items-center py-20 overflow-hidden dark:bg-dark-theme">
         <div className="max-w-screen-lg w-full mx-auto px-2">
           <Heading heading="Contact me" />
           <div className="lg:grid-cols-2 grid grid-cols-1 gap-12 lg:max-w-none max-w-screen-sm mx-auto ">
@@ -76,7 +76,7 @@ const Contact = () => {
                     },
                   })}
                   placeholder="Your Name"
-                  className={`focus:outline-none shadow w-full border bg-transparent  p-2 border-gray-200  text-gray-500 rounded-md 
+                  className={`focus:outline-none shadow w-full border bg-transparent dark:border-primary p-2 border-gray-200  text-gray-500 dark:text-gray-200 rounded-md 
                 ${errors.name && "ring-1 ring-red-500"}`}
                 />
                 <span className="text-red-300 text-sm font-main">
@@ -98,7 +98,7 @@ const Contact = () => {
                     },
                   })}
                   placeholder="Your Email"
-                  className={`focus:outline-none shadow w-full border bg-transparent  p-2 border-gray-200  text-gray-500 rounded-md 
+                  className={`focus:outline-none shadow w-full border dark:border-primary bg-transparent dark:text-gray-200 p-2 border-gray-200  text-gray-500 rounded-md 
                 ${errors.email && "ring-1 ring-red-500"}`}
                 />
                 <span className="text-red-300 text-sm font-main">
@@ -125,7 +125,7 @@ const Contact = () => {
                     },
                   })}
                   placeholder="Your Message"
-                  className={`focus:outline-none shadow w-full border bg-transparent  p-2 border-gray-200  text-gray-500 rounded-md 
+                  className={`focus:outline-none shadow w-full border bg-transparent  p-2 border-gray-200 dark:border-primary dark:text-gray-200  text-gray-500 rounded-md 
                 ${errors.msg && "ring-1 ring-red-500"}`}
                 ></textarea>
                 <span className="text-red-300 text-sm font-main">
@@ -150,14 +150,14 @@ const Contact = () => {
               >
                 <motion.h3
                   variants={item}
-                  className="text-2xl font-main font-bold mb-4 capitalize"
+                  className="text-2xl font-main font-bold mb-4 capitalize dark:text-gray-200"
                 >
                   Contact info :
                 </motion.h3>
 
                 <motion.div
                   variants={item}
-                  className="flex mb-4 items-center space-x-4 text-gray-700"
+                  className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
                 >
                   <FontAwesomeIcon className="w-4" icon={faEnvelope} />
                   <span className="text-lg font-main">
@@ -166,14 +166,14 @@ const Contact = () => {
                 </motion.div>
                 <motion.div
                   variants={item}
-                  className="flex mb-4 items-center space-x-4 text-gray-700"
+                  className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
                 >
                   <FontAwesomeIcon className="w-4" icon={faPhone} />
                   <span className="text-lg font-main">+212 629872534</span>
                 </motion.div>
                 <motion.div
                   variants={item}
-                  className="flex mb-4 items-center space-x-4 text-gray-700"
+                  className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
                 >
                   <FontAwesomeIcon className="w-4" icon={faMapMarkerAlt} />
                   <span className="text-lg font-main">Benslimane, Morocco</span>
@@ -182,7 +182,7 @@ const Contact = () => {
               <motion.div initial="hidden" animate="visible" variants={list}>
                 <motion.h3
                   variants={item}
-                  className="text-2xl font-main font-bold mb-4 capitalize"
+                  className="text-2xl font-main font-bold mb-4 capitalize dark:text-gray-200"
                 >
                   Social Networks :
                 </motion.h3>
@@ -194,7 +194,7 @@ const Contact = () => {
                 >
                   <motion.a
                     variants={itemSlideUp}
-                    className="hover:text-primary"
+                    className="hover:text-primary dark:text-primary"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://www.facebook.com/shuu.chan.771"
@@ -203,7 +203,7 @@ const Contact = () => {
                   </motion.a>
                   <motion.a
                     variants={itemSlideUp}
-                    className="hover:text-primary"
+                    className="hover:text-primary dark:text-primary"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://www.instagram.com/shuu.chan.25/"
@@ -212,7 +212,7 @@ const Contact = () => {
                   </motion.a>
                   <motion.a
                     variants={itemSlideUp}
-                    className="hover:text-primary"
+                    className="hover:text-primary dark:text-primary"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://github.com/ZinoChan"
