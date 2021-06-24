@@ -21,7 +21,7 @@ const Home = () => {
           animate="visible"
           variants={fadeIn}
           custom={0.6}
-          className="absolute  bottom-10 px-2 xl:hidden font-main uppercase font-black dark:text-gray-700   md:text-7xl text-5xl"
+          className="absolute z-20 bottom-0 px-2 xl:hidden font-main uppercase font-black text-gray-300 dark:text-dark-gray   md:text-7xl text-5xl"
         >
           front-end
         </motion.h1>
@@ -73,7 +73,7 @@ const Home = () => {
           animate="visible"
           variants={slideUp}
           custom={0.6}
-          className="absolute -bottom-10 md:left-12 left-4 w-20 bg-cover h-20 dark:filter dark:invert"
+          className="absolute -bottom-10 xl:left-12 right-0 w-20 bg-cover h-20 dark:filter  dark:invert"
         >
           <Shape />
         </motion.div>
