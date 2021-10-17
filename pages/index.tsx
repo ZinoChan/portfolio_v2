@@ -14,7 +14,7 @@ import Shape from "@components/Shape";
 const Home = () => {
   return (
     <>
-      <MetaTags title="ELGUIL Zineb | Front-end developer" />
+      <MetaTags title="Zineb | Front-end developer" />
       <section className="relative overflow-hidden min-h-screen w-full flex items-center md:pt-0 pt-16 dark:bg-dark-theme">
         <motion.h1
           initial="hidden"
