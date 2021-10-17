@@ -57,7 +57,7 @@ const About = () => {
               custom={0.3}
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
             >
-              Hi I'm Zineb ELGUIL, I'm a self taught front-end web developer and
+              Hi I'm Zineb, I'm a self taught front-end web developer and
               designer with over 2 years of experience on building web
               application. I like learning new technologies, continue
               challenging myself, and do interesting things that matter.
