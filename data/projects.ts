@@ -55,6 +55,17 @@ export const projects = [
       tools: ["Gatsby", "gsap", "tailwindcss"],
       imgs: ["/gohan.jpg", "/work/sushio1.jpg", "/work/sushio2.jpg"]
     },
+    {
+      id: "5ff76e76-4fc3-4ba4-8652-1866a8e734db",
+      category: "MERN Stack",
+      name: "Lapino",
+      img: "/lp-home.png",
+      linkToPage: "https://lapino.onrender.com/",
+      linkToSrc: "https://github.com/ZinoChan/lapino",
+      description: "E-commerce for Kids products",
+      tools: ["React", "Express", "Tailwindcss", "Redux", "Firebase-admin", "Typescript"],
+      imgs: ["/lp-home.png", "/work/lp-details", "/work/lp-login.png", "/work/lp-cart.png"]
+    },
     
    
   ];
