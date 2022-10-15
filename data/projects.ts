@@ -8,7 +8,7 @@ export const projects = [
     linkToSrc: "https://github.com/ZinoChan/lapino",
     description: "E-commerce for Kids products",
     tools: ["React", "Express", "Tailwindcss", "Redux", "Firebase-admin", "Typescript"],
-    imgs: ["/lp-home.png", "/work/lp-details", "/work/lp-login.png", "/work/lp-cart.png"]
+    imgs: ["/lp-home.png", "/work/lp-details.png", "/work/lp-login.png", "/work/lp-cart.png"]
   },
   {
     id: "6a29d826-fbba-4093-8eef-ac3642c79bbf",
