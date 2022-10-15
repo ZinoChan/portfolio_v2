@@ -56,7 +56,7 @@ export const projects = [
       imgs: ["/gohan.jpg", "/work/sushio1.jpg", "/work/sushio2.jpg"]
     },
     {
-      id: "5ff76e76-4fc3-4ba4-8652-1866a8e734db",
+      id: "5ff76e76-4fc3-4ba4-8652-1866a8e734zz",
       category: "MERN Stack",
       name: "Lapino",
       img: "/lp-home.png",
