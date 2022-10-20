@@ -34,7 +34,7 @@ const Home = () => {
               custom={0.3}
               className="md:text-7xl text-4xl md:leading-normal dark:text-gray-100  font-black font-main text-black uppercase"
             >
-              Web <br /> developer <br /> & designer
+              Front-End <br /> developer
             </motion.h1>
             <div className="md:space-x-16 justify-center items-center md:flex">
               <motion.div
