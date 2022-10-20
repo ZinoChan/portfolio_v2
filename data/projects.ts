@@ -35,11 +35,11 @@ export const projects = [
     {
       id: "4e701cf5-98a2-4f42-95b5-758cc122d08d",
       category: "Nextjs",
-      name: "Orcanime",
+      name: "Animix",
       img: "/orcanime.jpg",
       linkToPage: "https://orcanime.vercel.app/",
       linkToSrc: "https://github.com/ZinoChan/orcanime",
-      description: "gamer accessoiries ecommerce",
+      description: "Anime movies and blog",
       tools: ["Next js", "framer-motion", "tailwindcss", "firebase", "redux"],
       imgs: ["/orcanime.jpg","/work/orca1.jpg", "/work/orca2.jpg"]
     },
