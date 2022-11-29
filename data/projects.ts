@@ -26,7 +26,7 @@ export const projects = [
       category: "React",
       name: "Run",
       img: "/run.jpg",
-      linkToPage: "https://ruun.netlify.app/",
+      linkToPage: "https://run-store.vercel.app/",
       linkToSrc: "https://github.com/ZinoChan/Run",
       description: "sneakers ecommerce app",
       tools: ["React", "Redux", "Redux Saga", "Firebase", "Bootstrap"],
