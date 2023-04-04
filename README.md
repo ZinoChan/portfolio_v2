@@ -1,9 +1,11 @@
 
-## Hi, this is my personnel portfolio
-front-end developer & designer portfolio built using nextjs
+#👋 Hey there! Welcome to my portfolio 👨‍💻
 
-## Link
+## Link 🚀
 https://developer.vercel.app/
 
 # Tools
 Nextjs , Framer-motion, Tailwindcss
+
+🌟 About Me
+I am a passionate frontend developer with expertise in creating beautiful and functional user interfaces. I love experimenting with new technologies and creating exciting and interactive experiences for users.
