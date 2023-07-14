@@ -1,5 +1,5 @@
 
-# 👋 Hey there! Welcome to my portfolio 👨‍💻
+# 👋 Hey there! Welcome to my portfolio 
 
 ## Link 🚀
 https://developer.vercel.app/
